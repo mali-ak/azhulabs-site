@@ -9,6 +9,13 @@
       var alt=document.querySelector('link[hreflang="en"]'); if(alt){localStorage.setItem(k,'en');location.replace(alt.getAttribute('href'));}
     }
   }catch(e){}
+  // Ana sayfa kategori filtresi
+  var chips=document.querySelectorAll('.chip');
+  chips.forEach(function(c){c.addEventListener('click',function(){
+    chips.forEach(function(x){x.classList.toggle('on',x===c);});
+    var f=c.getAttribute('data-filter');
+    document.querySelectorAll('.card[data-cat]').forEach(function(k){k.classList.toggle('hide',f!=='all'&&k.getAttribute('data-cat')!==f);});
+  });});
   // FAQ bağlantısı (#faq) için ilk details'i aç
   if(location.hash==='#faq'){var d=document.querySelector('details');if(d){d.open=true;d.scrollIntoView();}}
 })();
