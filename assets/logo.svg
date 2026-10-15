@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 36">
-<defs><style>.w{fill:#e8ecf5}.a{fill:#4cc3ff}</style></defs>
-<symbol id="mark" viewBox="0 0 150 36">
- <path class="a" d="M4 32 15 4h5l11 28h-5.6l-2.6-7H12.2l-2.6 7Zm9.7-11.4h7.6L17.5 10.3Z"/>
- <text class="w" x="31" y="31" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-1">zHu</text>
- <text class="w" x="96" y="31" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="2" opacity=".8">LABS</text>
-</symbol>
-<use href="#mark"/>
-</svg>
